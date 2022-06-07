@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: rgb(202, 202, 202);
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.menu {
+    width: 100%;
+    background: #ffffff;
+    box-shadow: 0px 4px 30px -10px rgba(0, 0, 0, 0.1);
+}
+
+.menu-flex {
+    display: flex;
+    align-items: center;
+}
+
+.menu-column {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    justify-content: flex-start;
+}
+
+.logo {
+    margin-right: 10px;
+}
+
+.menu-column.menu-second-column {
+    justify-content: flex-end;
+}
+
+.menu-nav ul {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
+
+.menu-nav ul li a{
+    text-decoration: none;
+    color: #585e65;
+}
+
+
+
+.menu-link-button {
+    text-decoration: none;
+    height: 32px;
+    background-color: #4c6ef5;
+    color: #fff;
+    padding: 0 32px;
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+}
+
+.catalogo {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10px;
+    /*width: 80%;
+    height: 500px;*/
+    /*left: 130px;
+    top: 114px;*/
+   
+
+}
+
+
+
+.catalogo li {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 270px;
+    height: 500px;
+    margin-right: 16px;
+    margin-bottom: 16px;
+    justify-content: space-evenly;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    padding: 0 10px;
+    
+}
+
+img {
+    max-width: 100%;
+}
+
+.button {
+    color: #ffffff;
+    box-sizing: border-box;
+    width: 100%;
+    height: 48px;
+    /*left: 1333px;
+    top: 1074px;*/
+
+    background: #4C6EF5;
+    border: 1.5px solid #4C6EF5;
+    border-radius: 8px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.menu-item {
+    text-decoration: none;
+}
+
+.span {
+    align-self: flex-start;
+}
